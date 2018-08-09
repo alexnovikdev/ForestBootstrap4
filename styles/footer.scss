@@ -1,0 +1,15 @@
+$bg-footer: #212529;
+$color-footer: #fff;
+
+.footer {
+    margin-top: 3rem;
+    background: $bg-footer;
+    color: $color-footer;
+    padding: 2rem 0;
+}
+.footer a {
+    color: #17a2b8
+}
+.footer a:hover {
+    color: darken(#17a2b8, 15%);
+}

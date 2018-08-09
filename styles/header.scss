@@ -1,0 +1,27 @@
+$white: #fff;
+
+.title-header {
+    height: 400px;
+    background: url(../imgs/bg.jpg) no-repeat center center;
+    background-size: cover;
+    color: $white;
+}
+
+@media screen and (max-width: 1199px) {
+    .title-header .display-2 {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .title-header .display-2 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .title-header {
+        height: 300px;
+    }
+    .title-header .display-2 {
+        font-size: 2rem;
+    }
+}

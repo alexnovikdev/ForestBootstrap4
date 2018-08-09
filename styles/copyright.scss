@@ -1,0 +1,9 @@
+$bg-copyright: #212529;
+$bg-color: #adb5bd;
+
+.copyright {
+    padding: 1rem;
+    background: darken($bg-copyright, 5%);
+    color: $bg-color;
+    text-align: center;
+}

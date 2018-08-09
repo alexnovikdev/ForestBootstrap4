@@ -1,0 +1,15 @@
+$pagination-color: #000;
+$pagination-active: rgb(231, 77, 77);
+
+.main-content {
+    margin-top: 3rem;
+}
+
+.pagination a{
+    color: $pagination-color;
+}
+.main-content .pagination li.active a {
+    background: $pagination-active;
+    color: $pagination-color;
+    border-color: $pagination-active;
+}
